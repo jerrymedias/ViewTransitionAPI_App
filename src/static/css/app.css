@@ -1,0 +1,222 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: #666;
+}
+
+h2 {
+  font-family: "Poppins";
+  /* font-style: italic; */
+  font-weight: 700;
+  font-size: 2em;
+  color: #e74c3c;
+}
+
+.centered {
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+@media screen and (min-width: 52em) {
+  .centered {
+    max-width: 52em;
+  }
+}
+
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+
+.masthead {
+  background: #e74c3c;
+  box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.site-title {
+  margin: 0 0 1em;
+  padding: 1em 0;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: black;
+}
+
+@media screen and (min-width: 44.44em) {
+  .site-title {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .site-title {
+    font-size: 2.5em;
+  }
+}
+
+.site-title a {
+  color: hsl(5, 45%, 95%);
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: #ecf0f1;
+  line-height: 1.4;
+}
+
+.site-title {
+  color: white;
+}
+
+.card {
+  background: white;
+  margin-bottom: 2em;
+}
+
+.card a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+}
+
+.card a:hover {
+  box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.card-content {
+  padding: 1.4em;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  /* font-weight: normal */
+}
+
+.card-content p {
+  font-size: 95%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 40em) {
+  .cards {
+    margin-top: -1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 1em;
+    display: flex;
+    flex: 0 1 calc(50% - 0.5em);
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .cards {
+    margin-top: inherit;
+  }
+
+  .card {
+    margin-bottom: 2em;
+    display: flex;
+    flex: 0 1 calc(33% - 0.5em);
+  }
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+}
+
+.mandatoryScrollSnapping>div {
+  scroll-snap-stop: always;
+}
+
+.x.mandatoryScrollSnapping {
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  flex: none;
+  width: 100%;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.x {
+  width: 100%;
+  flex-flow: row nowrap;
+}
+
+.slide {
+  text-align: center;
+  display: grid;
+  scroll-snap-align: center;
+  flex: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.bannerImg {
+  border-radius: 4px;
+  height: 440px;
+}
+
+.spacer {
+  padding-left: 12px;
+}
+
+.dotsContainer {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+}
+
+.dotsScrollableContainer {
+  transition: transform 0.5s ease;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  margin: 0 2px;
+  background-color: #a9a9a9;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  transition: width 0.3s ease;
+}
+
+.activeDot {
+  background-color: #3b3b3b;
+}

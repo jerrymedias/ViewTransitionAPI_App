@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": 56704925,
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Large",
+      "name": "Iris",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56704925/1/?width=248"
+    },
+    {
+      "id": 56703608,
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Medium",
+      "name": "Domino ",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56703608/1/?width=248"
+    },
+    {
+      "id": 56703253,
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Medium",
+      "name": "Bella",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56703253/1/?width=248"
+    },
+    {
+      "id": 56586225,
+      "age": "Baby",
+      "gender": "Female",
+      "size": "Small",
+      "name": "Allie",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56586225/1/?width=248"
+    },
+    {
+      "id": 56582252,
+      "age": "Young",
+      "gender": "Female",
+      "size": "Small",
+      "name": "Winnie",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56582252/1/?width=248"
+    },
+    {
+      "id": 56521242,
+      "age": "Young",
+      "gender": "Male",
+      "size": "Large",
+      "name": "Samson",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56521242/3/?width=248"
+    },
+    {
+      "id": 56449718,
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Small",
+      "name": "Isaac",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56449718/1/?width=248"
+    },
+    {
+      "id": 56361746,
+      "age": "Young",
+      "gender": "Male",
+      "size": "Small",
+      "name": "Baron",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56361746/1/?width=248"
+    },
+    {
+      "id": 52953757,
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Large",
+      "name": "Raggedy Ann",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/52953757/1/?width=248"
+    },
+    {
+      "id": 52953754,
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Large",
+      "name": "Raggedy Andy",
+      "image": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/52953754/1/?width=248"
+    }
+  ]
+}

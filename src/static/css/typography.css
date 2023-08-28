@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Poppins-Regular-Subset";
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: local("Poppins Regular"), local("Poppins-Regular"),
+        url("../fonts/Poppins-Regular-Subset.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+201C, U+201D, U+00A;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: optional;
+    src: local("Poppins Regular"), local("Poppins-Regular"),
+        url("../fonts/Poppins-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    font-display: optional;
+    src: local("Poppins Italic"), local("Poppins-Italic"),
+        url("../fonts/Poppins-Italic-Subset.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+201C, U+201D, U+00A;
+}
+
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-display: optional;
+    src: local("Poppins Bold"), local("Poppins-Bold"),
+        url("../fonts/Poppins-Bold-Subset.woff2") format("woff2");
+    unicode-range: U+0020-007F, U+201C, U+201D, U+00A;
+}
+
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    font-style: italic;
+    font-weight: 700;
+    font-display: optional;
+    src: local("Poppins Bold Italic"), local("Poppins-Bold-Italic"),
+        url("../fonts/Poppins-BoldItalic.woff2") format("woff2");
+    /* unicode-range: U+0020-007F, U+201C, U+201D, U+00A; */
+}

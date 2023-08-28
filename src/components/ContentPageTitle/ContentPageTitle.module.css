@@ -1,0 +1,33 @@
+.anchor {
+    text-decoration: underline;
+}
+
+.marginLeft8 {
+    margin-left: 8px;
+}
+
+
+/* Avatar classes */
+.avatar {
+    border-radius: 50%;
+    width: auto;
+}
+
+.imageBoxMedium {
+    width: 45px;
+    height: 45px;
+}
+
+.button {
+    background-color: #e74c3c;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0 4px;
+}

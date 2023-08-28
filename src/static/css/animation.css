@@ -1,0 +1,95 @@
+@keyframes fade-in {
+    from {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-from-right {
+    from {
+        transform: translateX(100vw);
+    }
+
+    to {
+        transform: translateX(0vw);
+    }
+}
+
+@keyframes slide-to-left {
+    from {
+        transform: translateX(0vw);
+    }
+
+    to {
+        transform: translateX(-100vw);
+    }
+}
+
+::view-transition-old(root) {
+    animation: unset;
+}
+
+::view-transition-new(root) {
+    animation: unset;
+}
+
+/* to make all the page transitions from right to left */
+::view-transition-old(forward-navigation) {
+    animation: 90ms cubic-bezier(0.4, 0, 1, 1) 90ms both fade-out,
+        300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-to-left;
+    mix-blend-mode: normal;
+}
+
+::view-transition-new(forward-navigation) {
+    animation: 90ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in,
+        300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-from-right;
+    mix-blend-mode: normal;
+}
+
+@keyframes slide-from-left {
+    from {
+        transform: translateX(-100vw);
+    }
+
+    to {
+        transform: translateX(0vw);
+    }
+}
+
+@keyframes slide-to-right {
+    from {
+        transform: translateX(0vw);
+    }
+
+    to {
+        transform: translateX(100vw);
+    }
+}
+
+/* to make all the page transitions from left to right */
+::view-transition-old(backward-navigation) {
+    animation: 90ms cubic-bezier(0.4, 0, 1, 1) both fade-out,
+        300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-to-right;
+    mix-blend-mode: normal;
+}
+
+::view-transition-new(backward-navigation) {
+    animation: 90ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in,
+        300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-from-left;
+    mix-blend-mode: normal;
+}
+
+::view-transition-old(full-embed),
+::view-transition-new(full-embed) {
+    animation: none;
+    mix-blend-mode: normal;
+}
+
+::view-transition-image-pair(full-embed) {
+    isolation: none;
+}

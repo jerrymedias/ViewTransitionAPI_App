@@ -1,0 +1,18 @@
+{
+  "data": {
+    "id": 56704134,
+    "name": "Marley",
+    "animal": "Dog",
+    "breed": "Akita",
+    "description": "This giant boy (about 85 pounds & 2 years old) is a sofy at heart. He takes treats so gently...",
+    "photos": [
+      "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56704134/1/?width=248",
+      "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56704134/2/?width=248",
+      "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56704134/3/?width=248",
+      "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56704134/4/?width=248",
+      "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/56704134/5/?width=248"
+    ],
+    "city": "Tracy",
+    "state": "CA"
+  }
+}
