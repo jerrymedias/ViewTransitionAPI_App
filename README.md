@@ -25,10 +25,10 @@ To serve the app locally during development, follow these steps:
 
 2. **Access the App**: Once the development server is up and running, you can access the app in your browser at http://localhost:3000/.
 
-# Production Build & serve
+# Production Build & Serve
 To serve the app using the production build, use the following steps:
 
-1. **Build and Run Production server**: Generate the production build of the app using the following command:
+1. **Build and Run Production Server**: Generate the production build of the app using the following command:
 
         npm run prod
 
