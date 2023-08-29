@@ -1,6 +1,8 @@
-# ViewTransitionAPI_App
+# ViewTransition API App
 
-Welcome to the ViewTransitionAPI_App! This is a frontend application that allows you to perform view transitions. Follow the instructions below to set up and run the app on your local machine.
+Welcome to the ViewTransition API App! This is a frontend application that allows you to perform backward and forward page transition just like native apps using the ViewTransition API.
+
+    Follow the instructions below to set up and run the app on your local machine.
 
 ## Setup
 
