@@ -1,14 +1,14 @@
 # ViewTransition API App
 
 Welcome to the ViewTransition API App! This is a frontend application that allows you to perform backward and forward page transition just like native apps using the ViewTransition API.
-    
+
 Follow the instructions below to set up and run the app on your local machine.
 
 ## Setup
 
 1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
-   git clone https://github.com/jerrymedias/ViewTransitionAPI_App.git
+        git clone https://github.com/jerrymedias/ViewTransitionAPI_App.git
 
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm:
     
