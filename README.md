@@ -1,17 +1,39 @@
 # ViewTransitionAPI_App
-Setup
-After cloning the app run command:
-npm i
 
-# To serve the app locally run two commands:
-npm run server:dev
-npm run start
+Welcome to the ViewTransitionAPI_App! This is a frontend application that allows you to perform view transitions. Follow the instructions below to set up and run the app on your local machine.
 
-# App will be served on
-http://localhost:3000/
+## Setup
 
-# To serve the prod build, run command:
-npm run prod
+1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
-# App will be served on
-http://localhost:3001/
+   git clone <repository-url>
+
+2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm:
+    
+    cd ViewTransitionAPI_App
+    npm install
+
+# Local Development
+To serve the app locally during development, follow these steps:
+
+1. Run Development Server: Execute the following commands to start the development server:
+
+    npm run server:dev
+    npm run start
+
+2. Access the App: Once the development server is up and running, you can access the app in your browser at http://localhost:3000/.
+
+# Production Build
+To serve the app using the production build, use the following steps:
+
+1. Build and run Production app: Generate the production build of the app using the following command:
+
+    npm run prod
+
+2. Access the App: The production version of the app will be accessible in your browser at http://localhost:3001/.
+
+# Additional Information
+For any additional information or issues related to this app, feel free to contact at jerrymedia007@gmail.com.
+
+# License
+This project is licensed under the MIT License.
