@@ -23,7 +23,7 @@ export function useNavigateWithTransition() {
                 navigate(route, options)
 
                 //Angular
-                // this.router.navigateByUrl(route)
+                // router.navigateByUrl(route)
 
                 console.log("StartViewTransitionCallbackFinished")
             })
@@ -40,8 +40,6 @@ export function useNavigateWithTransition() {
             viewTransition.ready.then(() => {
                 /// Animate the root's new view
                 console.log("StartViewTransitionReady")
-
-                window.scrollTo({ top: 0, left: 0, behavior: "auto" })
             })
 
             //A Promise that fulfills once the transition animation is finished, and the new page view is visible and interactive to the user.
