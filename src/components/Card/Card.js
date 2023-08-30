@@ -6,11 +6,11 @@ const Card = ({ image, header, description, onClick }) =>{
         <article className={css.card} onClick={onClick}>
             <div>
                 {image && (
-                    <figure className={css.thumbnail}>
-                        <img src={`${image}`} alt="meow"  style={
+                    <figure>
+                        <img src={`${image}`} className="shimmer" alt="meow"  style={
                             {
                                 height:  '248px',
-                                width: "248px"
+                                width: "100%"
                             }
                         }/>
                     </figure>

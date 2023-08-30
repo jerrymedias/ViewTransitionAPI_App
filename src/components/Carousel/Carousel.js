@@ -34,7 +34,7 @@ function Carousel({ images }) {
                 <img
                   src={image}
                   alt="animal thumbnail"
-                  className={css.bannerImg}
+                  className={`shimmer ${css.bannerImg}`}
                 />
               </div>
               {index === images.length - 1 && <div className={css.spacer} />}
@@ -43,7 +43,7 @@ function Carousel({ images }) {
         })}
       </div>
       {images?.length > 1 && (
-        <div className={`col-6 ${css.dotsContainer}`}>
+        <div className={`col-6 marginTop-8 ${css.dotsContainer}`}>
           <div className={`flex ${css.dotsScrollableContainer}`}>
             {images?.map((el, index) => {
               return (

@@ -1,7 +1,9 @@
 .card {
-  background: #fff;
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%),
+    0 8px 8px 0 rgb(0 0 0 / 8%);
   padding: 8px;
   margin-bottom: 2em;
+  border-radius: 4px;
 }
 
 .card a {
@@ -31,12 +33,6 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
-}
-
-.thumbnail {
-  height: 248px;
-  width: 248px;
-  background-color: #dbdbdb;
 }
 
 @media screen and (min-width: 40em) {
