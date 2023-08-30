@@ -6,8 +6,8 @@ const Card = ({ image, header, description, onClick }) =>{
         <article className={css.card} onClick={onClick}>
             <div>
                 {image && (
-                    <figure>
-                        <img src={`${image}`} className="shimmer" alt="meow"  style={
+                    <figure  className="shimmer">
+                        <img src={`${image}`} alt="meow"  style={
                             {
                                 height:  '248px',
                                 width: "100%"
