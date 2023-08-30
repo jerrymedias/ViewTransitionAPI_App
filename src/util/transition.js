@@ -9,7 +9,7 @@ export function useNavigateWithTransition() {
 
             //decide whether to use backward transition or forward transition and select the root element
             //and give it the viewTransitionName which you have decided to use
-            const rootElementRef = document.getElementById("root")
+            const rootElementRef = document.querySelector(":root")
             rootElementRef.style.viewTransitionName =
                 route === -1 ? "backward-navigation" : "forward-navigation"
 
@@ -17,7 +17,6 @@ export function useNavigateWithTransition() {
             console.log("StartViewTransitionInvoked")
             const viewTransition = document.startViewTransition(function updateCallback() {
                 console.log("StartViewTransitionCallbackInvoked", route)
-
                 //React
                 delete options.skipTransition
                 navigate(route, options)
@@ -39,6 +38,7 @@ export function useNavigateWithTransition() {
             // A Promise that fulfills once the pseudo-element tree is created and the transition animation is about to start.
             viewTransition.ready.then(() => {
                 /// Animate the root's new view
+                window.scrollTo({ top: 0, left: 0, behavior: "auto" })
                 console.log("StartViewTransitionReady")
             })
 
@@ -63,3 +63,14 @@ export function useNavigateWithTransition() {
 
     return transition
 }
+
+
+// ::view-transition
+// ├─ ::view-transition-group(root)
+// │  └─ ::view-transition-image-pair(root)
+// │     ├─ ::view-transition-old(root)
+// │     └─ ::view-transition-new(root)
+// └─ ::view-transition-group(main-header)
+//    └─ ::view-transition-image-pair(main-header)
+//       ├─ ::view-transition-old(main-header)
+//       └─ ::view-transition-new(main-header)
