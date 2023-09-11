@@ -9,37 +9,13 @@ import { useNavigateWithTransition } from "../util/transition";
 const DogsPageSkeletonConfig = [
   {
     span: 6,
-    height: "320px",
+    height: "328px",
     classes: "flex alignCenter justifyCenter",
-    columns: [
-      {
-        span: 5,
-        rows: [
-
-          { span: 5, height: "248px" },
-          { span: 2, height: "24px", classes: "marginTop-16" },
-          { span: 4, height: "24px", classes: "marginTop-8" },
-
-        ]
-      }
-    ]
   },
   {
     span: 6,
-    height: "320px",
+    height: "328px",
     classes: "flex alignCenter justifyCenter marginTop-16",
-    columns: [
-      {
-        span: 5,
-        rows: [
-
-          { span: 5, height: "248px" },
-          { span: 2, height: "24px", classes: "marginTop-16" },
-          { span: 4, height: "24px", classes: "marginTop-8" },
-
-        ]
-      }
-    ]
   },
 ]
 
@@ -69,7 +45,7 @@ const Category = () => {
               <Card
                 header={dog.name}
                 image={dog.image}
-                onClick={() => navigate(`/dog/${dog.name?.toLowerCase()}`)}
+                onClick={() => navigate(`/dog/${dog.name?.toLowerCase()}`, {transitionName: "forward-transition"})}
               />
             </div>
           ))}

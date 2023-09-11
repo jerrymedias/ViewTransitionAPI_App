@@ -29,7 +29,7 @@ const Header = () => {
     <header className={`masthead clear ${css.mainHeader}`} style={{height: "48px", marginBottom: "16px", display: "flex", alignItems: "center", position: "sticky", top: "0px", zIndex: "1"}}>
       <div style={{display: "flex", alignItems: "center", padding: "8px"}}>
         {showbackButton && <div onClick={() => {
-          navigate(-1)
+          navigate(-1, {transitionName: "backward-transition"})
         }}>{arrowLeft24Primary}</div>}
         <div className="site-branding" style={{marginLeft: "8px"}}>
           <div style={{margin: "unset", fontSize: "24px", fontWeight: "600"}}>I love dogs</div>

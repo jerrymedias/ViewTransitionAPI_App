@@ -32,6 +32,11 @@ const DogPageSkeletonConfig = [
     height: "20px",
     classes: "flex alignCenter justifyCenter marginTop-8",
   },
+  {
+    span: 6,
+    height: "36px",
+    classes: "flex alignCenter justifyCenter marginTop-12",
+  },
 ]
 
 const Product = () => {

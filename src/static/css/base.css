@@ -264,6 +264,10 @@ h2 {
   margin-top: 16px;
 }
 
+.marginTop-12 {
+  margin-top: 12px;
+}
+
 .flex {
   display: flex;
 }
