@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 export function useNavigateWithTransition() {
     const navigate = useNavigate()
     function transition(route, options = {}) {
-        // Check to see if API is supported and also if skiptransition is disabled
+        // Check to see if API is supported
         if (document.startViewTransition) {
 
             //Assign transition name to the 
@@ -52,14 +52,3 @@ export function useNavigateWithTransition() {
 
     return transition
 }
-
-
-// ::view-transition
-// ├─ ::view-transition-group(root)
-// │  └─ ::view-transition-image-pair(root)
-// │     ├─ ::view-transition-old(root)
-// │     └─ ::view-transition-new(root)
-// └─ ::view-transition-group(main-header)
-//    └─ ::view-transition-image-pair(main-header)
-//       ├─ ::view-transition-old(main-header)
-//       └─ ::view-transition-new(main-header)
